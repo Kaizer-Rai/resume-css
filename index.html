@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flexbox Resume</title>
+</head>
+<body>
+        <!-- Contct Info --> 
+        <header class="flex-header">
+            <h2> Peter Kershaw &lt;web-developer&gt;</h2>
+            <p> Contact: 111-222-3333 // San Antonio, TX // peter.kershaw@email.com</p>
+            <a href="https://github.com/Kaizer-Rai"> Check out my work on <b>Github</b>!</a>
+        </header>
 
+        <main class="flex-container">
+            <!-- Education --> 
+            <hr>
+            <h3> Education </h3>
+            <section class="flex-section"> 
+
+                <div class="flex-item"> 
+                    <h4> Schooling </h4>
+                    <p> Texas Tech University - Lubbock, Texas</p>
+                    <p> Bachelor of General Studies</p>
+                    <p> GPA: 2.9</p>
+                    <p> Aug 2016 - Dec 2020</p>
+                </div>
+
+                <div class="flex-item">
+                    <h4>Certifications</h4>
+                    <p> Python For Everyone - Universiry of Michigan</p>
+                    <p> Web Development - Chegg Skills</p>
+                    <p> Web Development - Springboard (In Progress)</p>
+                </div>
+
+            </section>
+
+            <!-- Experience -->
+            <hr>
+            <h3> Experience </h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th>Company</th>
+                        <th>City, State</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Customer Service Representative</td>
+                        <td>USAA</td>
+                        <td>San Antonio, Tx</td>
+                        <td>Aug '25 - Present</td>
+                    </tr>
+                    <tr>
+                        <td>Quality Assurance Technician</td>
+                        <td>Visionworks</td>
+                        <td>Schertz, Tx</td>
+                        <td>Oct '22 - Aug '25</td>
+                    </tr>
+                    <tr>
+                        <td>Logistics Coordinator</td>
+                        <td>TQL</td>
+                        <td>San Antonio, Tx</td>
+                        <td>Dec '20 - Sept '22</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+
+            <!-- Skills -->
+            <hr>
+            <h3> Skills </h3>
+            <section class="flex-section">  
+                <div class="flex-item">
+                <ul class="skills"> 
+                    <li> HTML </li>
+                    <li> CSS </li>
+                    <li> JavaScript </li>
+                    <li> TailwindCSS </li>
+                    <li> Microsoft Office Suite</li>
+                    <li> Visual Studio Code </li>
+                    <li> Teamwork </li>
+                    <li> Customer Service </li>
+                    <li> Problem Solving </li>
+                    <li> Time Management </li>
+                    <li> Written Communication</li>
+                </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="flex-container">
+            <!-- Contact Me -->
+            <hr>
+            <h3> Contact Me! </h3>
+            <form class="flex-item">
+                <div class="flex-section-left">
+                    <label>Enter Contact Info:</label>
+                    <input name="name" type="text" placeholder="Name (required)" required>
+                    <input name="email" type="text" placeholder="Email (required)" required>
+                    <input name="company" type="text" placeholder="Company">
+                </div>
+                <div class="flex-section-left">
+                    <label>Select a date to talk or meet!:</label>
+                <input name="date" type="date">
+                <br>
+                <label>Select reason for contact: </label>
+                <select>
+                    <option value="interview">Interview</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="project">Project Idea</option>
+                    <option value="question">Question</option>
+                </select>
+                <br>
+                <label>Send a message:</label>
+                <textarea name="" id="" cols="50", rows="10"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+                </div>
+            </form>
+        </footer>
+
+</body>
+</html>

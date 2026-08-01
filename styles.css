@@ -1,1 +1,92 @@
+/* Body */
 
+body {
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+    background-color: #1c1c1b;
+    color: #DAF7DC;
+}
+
+/* Elements */
+
+h2, h3 {
+    text-shadow: 2px 2px 2px #1b6722;
+    color: #9EE493;
+}
+
+a {
+    text-decoration: none;
+    color: #edd363;
+}
+
+a:hover {
+    color: #f3cd26;
+    text-decoration: underline;
+}
+
+hr {
+    width: 75%;
+    height: 1px;
+    background-color: #66db54;
+}
+
+/* Tables and Lists */
+
+td {
+    padding: 5px;
+    border-top: 2px solid whitesmoke;
+}
+
+ul.skills {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+/* Flex Containers and Items */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex-section {
+    padding: 5px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-section-col {
+    padding: 5px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flex-section-left {
+    padding: 5px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.flex-item {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    text-wrap: wrap;
+    flex-grow: 1;
+}
